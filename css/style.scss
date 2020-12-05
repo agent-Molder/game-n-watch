@@ -1,0 +1,151 @@
+$console-yellow: blanchedalmond;
+$console-red:rgba(255, 65, 54, 0.95);
+$console-gray:#a8bbce;
+$logo-width:175px;
+
+body {
+    border: 20px solid $console-red;
+    border-radius: 5px;
+    background-color: $console-yellow;
+    max-height: 800px;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+    height:100vh;
+}
+.game-watch {
+    margin-bottom: 20%;
+
+    &__dpad {
+        max-width: 20px;
+        padding: 20px 10px;
+        margin:10px;        
+        background: linear-gradient(170deg, ivory 1%, $console-gray 25%, gray 100%);
+        border-radius: 33px;
+        text-align: center;
+        &--uudd{
+            display: flex;
+            flex-direction: column;
+            margin: 0 15%;
+        }        
+        &--lrlr{
+            display: flex;
+            flex-direction: row;
+        }
+        
+    }
+
+    &__screen {
+        background: linear-gradient(185deg, ivory 0%, green 2%, darkgreen 65%);
+        height: 250px;
+        margin-top: 50px;
+        border: 5px solid rgba(0,0,0,0.2);
+        border-radius: 25px;
+        margin-left: 0;
+        &--txt {
+            display: flex;
+            justify-content: center;
+            color:white;
+            font-family: 'Roboto', sans-serif;
+        }
+        //CENTER
+        //"FULL STACK WEB DEVELOPER"
+        //screen outer outline red
+        //screen outer outline black
+        //1P "Nintendo"
+
+       
+    }
+    &__logo {
+        background-color: ivory;
+        max-width: $logo-width;
+        border: 1px solid black;
+        height: 100px;
+        text-align: center;
+        font-style: italic;
+        font-size: 25pt;
+        border-radius: 25px;
+        margin-top: 20%;
+        font-family: 'Major Mono Display', monospace;
+
+    }
+
+    &__opt {
+        margin: 20%;
+        &--btn{
+            border: none;
+            background-color: $console-gray;
+            background: linear-gradient(170deg, ivory 1%, $console-gray 25%, gray 100%);
+            border-radius: 33px;
+            margin-bottom: 0;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+            0 2px 4px rgba(0,0,0,0.07), 
+            0 4px 8px rgba(0,0,0,0.07), 
+            0 8px 16px rgba(0,0,0,0.07),
+            0 16px 32px rgba(0,0,0,0.07), 
+            0 32px 64px rgba(0,0,0,0.07);
+            max-height: 10px;
+            padding: 10px 22px;
+        }
+        &--txt{
+          text-align: center;
+          max-width: 40px;  
+          margin-top: 0;
+          font-size: 8pt;
+          font-weight: 800;
+          font-family: 'Roboto', sans-serif;
+          letter-spacing: 1px;
+        }
+    }
+
+    &__hit {
+        margin-left:20%;
+        &__right-btn {
+            margin-left: 0;
+        }
+        background-color: $console-red;
+        border-radius: 50%;
+        background: rgb(255,65,54);
+        background: linear-gradient(145deg, ivory 0%, rgba(255,65,54,1) 25%, rgba(135,35,33,0.95) 100%);
+        text-decoration: none;
+        width: 45px;
+        padding: 20px;
+        background-clip: padding-box;
+        border: none;
+        text-align: left;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+        0 2px 4px rgba(0,0,0,0.07), 
+        0 4px 8px rgba(0,0,0,0.07), 
+        0 8px 16px rgba(0,0,0,0.07),
+        0 16px 32px rgba(0,0,0,0.07), 
+        0 32px 64px rgba(0,0,0,0.07);
+        &__box {
+            display: flex;
+        }
+        &--txt{
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        a:hover {
+            border: #FF4136;
+        }
+
+    }
+
+    //LEFT
+    //logo square rounded
+    //d-pad outline
+
+
+    
+    
+    //RIGHT
+    //button outline red - game
+    //button outline red - time
+    //button outline red - pause/set
+
+    //button - B
+    //button - A
+
+}

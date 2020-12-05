@@ -1,0 +1,108 @@
+body {
+  border: 20px solid rgba(255, 65, 54, 0.95);
+  border-radius: 5px;
+  background-color: blanchedalmond;
+  max-height: 800px;
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+  height: 100vh;
+}
+
+.game-watch {
+  margin-bottom: 20%;
+}
+.game-watch__dpad {
+  max-width: 20px;
+  padding: 20px 10px;
+  margin: 10px;
+  background: linear-gradient(170deg, ivory 1%, #a8bbce 25%, gray 100%);
+  border-radius: 33px;
+  text-align: center;
+}
+.game-watch__dpad--uudd {
+  display: flex;
+  flex-direction: column;
+  margin: 0 15%;
+}
+.game-watch__dpad--lrlr {
+  display: flex;
+  flex-direction: row;
+}
+.game-watch__screen {
+  background: linear-gradient(185deg, ivory 0%, green 2%, darkgreen 65%);
+  height: 250px;
+  margin-top: 50px;
+  border: 5px solid rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  margin-left: 0;
+}
+.game-watch__screen--txt {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.game-watch__logo {
+  background-color: ivory;
+  max-width: 175px;
+  border: 1px solid black;
+  height: 100px;
+  text-align: center;
+  font-style: italic;
+  font-size: 25pt;
+  border-radius: 25px;
+  margin-top: 20%;
+  font-family: "Major Mono Display", monospace;
+}
+.game-watch__opt {
+  margin: 20%;
+}
+.game-watch__opt--btn {
+  border: none;
+  background-color: #a8bbce;
+  background: linear-gradient(170deg, ivory 1%, #a8bbce 25%, gray 100%);
+  border-radius: 33px;
+  margin-bottom: 0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+  max-height: 10px;
+  padding: 10px 22px;
+}
+.game-watch__opt--txt {
+  text-align: center;
+  max-width: 40px;
+  margin-top: 0;
+  font-size: 8pt;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+}
+.game-watch__hit {
+  margin-left: 20%;
+  background-color: rgba(255, 65, 54, 0.95);
+  border-radius: 50%;
+  background: #ff4136;
+  background: linear-gradient(145deg, ivory 0%, #ff4136 25%, rgba(135, 35, 33, 0.95) 100%);
+  text-decoration: none;
+  width: 45px;
+  padding: 20px;
+  background-clip: padding-box;
+  border: none;
+  text-align: left;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+}
+.game-watch__hit__right-btn {
+  margin-left: 0;
+}
+.game-watch__hit__box {
+  display: flex;
+}
+.game-watch__hit--txt {
+  text-align: center;
+  margin-top: 50px;
+}
+.game-watch__hit a:hover {
+  border: #FF4136;
+}
+
+/*# sourceMappingURL=style.css.map */
